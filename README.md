@@ -13,6 +13,9 @@ Curcly braces are used to import small pieces of library. In above example we ju
 </details>
 
 <details>
+  </details>
+
+<details>
   <summary>What is benefit of using StyleSheet object as opposed to inline styles ? </summary>
   </br>
     StyleSheet will validate all styles rules and give error straight away, whereas inline style will show warning in case of error.
@@ -28,3 +31,14 @@ Curcly braces are used to import small pieces of library. In above example we ju
      }
  })</code> </pre> </blockquote> 
 </details>
+<details>
+<summary>
+            Will this piece of code work, if placed inside render function?
+            <pre><code>
+&lt;View&gt;
+  &lt;Text>Hey there!&lt;/Text&gt;
+  &lt;Text style={{ fontsize: 40 }} &gt;Example of inline style&lt;/Text&gt;;
+&lt;/View&gt;
+                </code> </pre></summary>
+         No. Text error will be thrown. Because here semi-colon in third line will be treated as text, and in React native all texts needs to be inside Text tag.
+    </details>
