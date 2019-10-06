@@ -1,5 +1,5 @@
 # React-Native-Questions
-Contains list of all important questions and answers related to RN
+<h2> A list of RN questions to clear basic concepts and this might be handy for interviews too. </h2>
 <details>
 <summary> Why do we use curly brace while importing some library? Eg: <code> import { Text, StyleSheet } from "react-native"; </code> </summary>
   </br>
@@ -11,9 +11,6 @@ Curcly braces are used to import small pieces of library. In above example we ju
   </br>
     Because we wanted to import entire library and not part of react. 
 </details>
-
-<details>
-  </details>
 
 <details>
   <summary>What is benefit of using StyleSheet object as opposed to inline styles ? </summary>
