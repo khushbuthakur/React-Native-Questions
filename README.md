@@ -57,7 +57,7 @@ const ComponentScreen = () => {
             </pre>
         </summary>
   <b>Output : </b> 123 </br>
-        A single string will be printed.
+        A single string will be printed. </br>
        <a href="https://snack.expo.io/@khushbu.vss/array-as-text" target="_blank">Try it out here</a>
     </details>
 
