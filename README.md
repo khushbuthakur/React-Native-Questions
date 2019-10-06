@@ -58,7 +58,6 @@ const ComponentScreen = () => {
         </summary>
   <b>Output : </b> 123 </br>
         A single string will be printed.
-        <div data-snack-id="@khushbu.vss/array-as-text" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fafafa;border:1px solid rgba(0,0,0,.08);border-radius:4px;height:505px;width:100%"></div>
-<script async src="https://snack.expo.io/embed.js"></script>
+       <a href="https://snack.expo.io/@khushbu.vss/array-as-text" target="_blank">Try it out here</a>
     </details>
 
