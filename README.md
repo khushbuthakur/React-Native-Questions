@@ -53,6 +53,7 @@ const ComponentScreen = () => {
     &lt;/View&gt;
   )
  }
+ export default ComponentScreen;
                 </code>
             </pre>
         </summary>
