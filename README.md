@@ -36,7 +36,27 @@ Curcly braces are used to import small pieces of library. In above example we ju
   &lt;Text>Hey there!&lt;/Text&gt;
   &lt;Text style={{ fontsize: 40 }} &gt;Example of inline style&lt;/Text&gt;;
 &lt;/View&gt;
-                </code> </pre></summary>
+</code> </pre></summary>
 No. Text error will be thrown as Text strings must be rendered within Text component.
   Because here semi-colon in third line will be treated as text, and in React native all texts needs to be rendered inside Text tag.
     </details>
+    <details>
+        <summary>
+            What will be the output of following snippet?
+            <pre>
+                <code>
+const ComponentScreen = () => {
+ const someArray = ['1', '2', '3']
+  return (
+    &lt;View&gt;
+      &lt;Text&gt;{someArray}&lt;/Text&gt;
+    &lt;/View&gt;
+  )
+ }
+                </code>
+            </pre>
+        </summary>
+  <b>Output : </b> 123 </br>
+        A single string will be printed.
+    </details>
+
